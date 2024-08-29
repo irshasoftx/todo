@@ -1,4 +1,6 @@
 import streamlit as st
+from altair import Color
+
 import functions
 
 # Fetch the current list of todos
@@ -19,9 +21,10 @@ def edit_todo_in_place(index, new_value):
     st.session_state["rerun"] = not st.session_state.get("rerun", False)  # Trigger a rerun
 
 # UI setup
-st.title("Irshasoft ToDo App")
-st.subheader("This is Irshasoft ToDo App")
-st.write("This app is to increase your productivity")
+st.image("logo.png", width=150)  # Add your logo here
+st.title("ToDo App")
+#st.subheader("Welcome to Irshasoft ToDo App")
+#st.write("This app is to increase your productivity")
 
 # Display the list of todos with editable checkboxes
 for index, todo in enumerate(todos):
