@@ -78,3 +78,5 @@ st.sidebar.write("www.amazon.in")
 st.sidebar.write("www.flipkart.com")
 st.sidebar.write("www.youtube.com")
 st.sidebar.write("https://chatgpt.com/")
+
+st.camera_input("Take a Photo")
