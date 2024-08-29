@@ -6,6 +6,8 @@ import functions
 # Fetch the current list of todos
 todos = functions.get_todos()
 
+st.set_page_config(layout="wide")
+
 # Function to add a new todo
 def add_todo():
     todo = st.session_state["new_todo"].strip()
@@ -24,7 +26,8 @@ def edit_todo_in_place(index, new_value):
 st.image("logo.png", width=150)  # Add your logo here
 st.title("ToDo App")
 #st.subheader("Welcome to Irshasoft ToDo App")
-#st.write("This app is to increase your productivity")
+# st.write("This app is to increase your <b> productivity </b>", unsafe_allow_html=True)
+
 
 # Display the list of todos with editable checkboxes
 for index, todo in enumerate(todos):
