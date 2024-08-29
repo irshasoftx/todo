@@ -29,12 +29,12 @@ st.write( "" )
 
 # Sample images - replace with your own images or URLs
 image_urls = [
-    "D:/Downloads/20927404112712-Capture.png",
-    "D:/Downloads/48847571765852-oru-pa.jpg",
-    "D:/Downloads/bk_9852.jpg",
-    "D:/Downloads/Vismayam.jpg",
-    "D:/Downloads/41BUiQsNbqL._SY466_.jpg",
-    "D:/Downloads/714711.jpg",
+    "20927404112712-Capture.png",
+    "48847571765852-oru-pa.jpg",
+    "bk_9852.jpg",
+    "Vismayam.jpg",
+    "41BUiQsNbqL._SY466_.jpg",
+    "714711.jpg",
 ]
 
 # Number of columns in the gallery
