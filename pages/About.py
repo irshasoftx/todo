@@ -73,4 +73,8 @@ st.markdown(
 )
 
 # Sidebar styling
-st.sidebar.write("This is the sidebar with custom background color.")
+st.sidebar.write("www.google.com")
+st.sidebar.write("www.amazon.in")
+st.sidebar.write("www.flipkart.com")
+st.sidebar.write("www.youtube.com")
+st.sidebar.write("https://chatgpt.com/")
